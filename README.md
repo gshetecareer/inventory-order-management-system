@@ -8,9 +8,13 @@ The solution based on the following key principles:
 ## Microservice Architecture:
 
 Separate concerns into distinct microservices (Inventory and Order services).
+
 Persistence Layer: Use an in-memory database (H2) to persist data for audit purposes.
+
 Order Automation: Automatic creation of orders based on inventory thresholds and time constraints.
+
 Simple REST API: Expose REST endpoints for managing inventory and orders.
+
 Code Modularity and Design: Use the SOLID principles, separation of concerns, and simple but effective design patterns.
 
 ## High-Level Architecture
@@ -31,9 +35,13 @@ Logic to check the current time and ensure that orders to Supplier are only plac
 ### Technical Components:
 
 Spring Boot: The application framework.
+
 Spring Data JPA: To interact with the in-memory H2 database.
+
 H2 Database: In-memory database for simple persistence during development.
+
 Spring Web: To expose REST APIs for inventory and order management.
+
 Service Layer: Contains business logic for managing inventory and orders.
 
 
