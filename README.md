@@ -4,6 +4,7 @@
 
 To address the Automobile Repair Shop’s Inventory and Order Management requirements, implemented a simple microservices-based solution using Spring Boot with in-memory database (H2). 
 The solution based on the following key principles:
+![InventoryPartStockOrderMgntSystem](https://github.com/user-attachments/assets/dd3d0f54-7b97-41cd-95d6-22fe76f050b8)
 
 ## Microservice Architecture:
 
