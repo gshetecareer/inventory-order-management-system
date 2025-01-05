@@ -32,6 +32,8 @@ Tracks orders placed to suppliers based on inventory levels.
 Automated order placement when stock goes below threshold.
 Logic to check the current time and ensure that orders to Supplier are only placed during the discount window
 
+![Invertory_Order_APIs_Detils](https://github.com/user-attachments/assets/7b3b669d-dcd6-4262-81f5-303e9d7d226e)
+
 ### Technical Components:
 
 Spring Boot: The application framework.
