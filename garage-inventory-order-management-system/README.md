@@ -34,6 +34,7 @@ Automated order placement when stock goes below threshold.
 Logic to check the current time and ensure that orders to Supplier are only placed during the discount window
 
 ![Invertory_Order_APIs_Detils](https://github.com/user-attachments/assets/7b3b669d-dcd6-4262-81f5-303e9d7d226e)
+![Swappger_Inventory_Part _Service](https://github.com/user-attachments/assets/3724a7dc-9fd6-486a-8934-6e7a6712c944)
 
 ### Technical Components:
 
