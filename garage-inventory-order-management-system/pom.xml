@@ -30,10 +30,10 @@
 	</dependencyManagement>
 	
 	<modules>
-  		<module>inventory-service</module>
-  		<module>order-service</module>
-  		<module>eureka-server</module>
-  		<module>api-gateway</module>
+  		<module>inventory-stock-management-service</module>
+  		<module>inventory-part-order-management-service</module>
+  		<module>inventory-eureka-server</module>
+  		<module>inventory-api-gateway</module>
   		<module>inventory-database-service</module>
 	</modules>
 </project>

@@ -37,7 +37,7 @@ public class PartOrderController {
 	
 	
 	@GetMapping("/{partOrderId}")
-	public ResponseEntity<PartOrderResponse> getProductOrderById(@PathVariable long partOrderId) {
+	public ResponseEntity<PartOrderResponse> getPartOrderById(@PathVariable long partOrderId) {
 		return ResponseEntity.status(HttpStatus.OK).body(orderService.fetchPartOrderById(partOrderId));
 	}
 }

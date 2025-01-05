@@ -5,7 +5,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.garage.inventoryordermanagementservice.dto.PartOrderResponse;
 import com.garage.inventoryordermanagementservice.dto.PartResponse;
 import com.garage.inventoryordermanagementservice.service.interfaces.InventoryPartService;
 
@@ -22,7 +21,7 @@ public class InventoryPartServiceImpl implements InventoryPartService{
 	public ResponseEntity<PartResponse> getPartDetailsById(Long id) {
 		// TODO Auto-generated method stub
 		ResponseEntity<PartResponse> partResponse= 	restTemplate.
-				getForEntity("http://localhost:8081/api/part/"+id, PartResponse.class);
+				getForEntity("http://localhost:8081/api/parts/"+id, PartResponse.class);
 		log.info("Part Details : ", partResponse.toString());
 		return partResponse;
 	}

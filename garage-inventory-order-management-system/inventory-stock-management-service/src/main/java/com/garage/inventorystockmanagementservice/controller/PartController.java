@@ -67,13 +67,13 @@ public class PartController {
 
     
     @DeleteMapping("/{id}")
-    public ResponseEntity<String> deleteProductById(@PathVariable(required = true) Long id){
+    public ResponseEntity<String> deletePartById(@PathVariable(required = true) Long id){
     	inventoryService.deletePartById(id);
     	return ResponseEntity.status(HttpStatus.OK).body("Part id {} deleted successfuly" + id);
     }
     
     @PutMapping
-   	public ResponseEntity<PartStockUpdateResponse> updateProductStock(@RequestBody(required = true) PartStockUpdateRequest stockUpdateRequest) {
+   	public ResponseEntity<PartStockUpdateResponse> updatePartStock(@RequestBody(required = true) PartStockUpdateRequest stockUpdateRequest) {
        return ResponseEntity.status(HttpStatus.OK).body(inventoryService.updatePartStock(stockUpdateRequest));
      }
 
